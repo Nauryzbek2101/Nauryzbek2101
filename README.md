@@ -61,7 +61,7 @@ public class Main {
         double avarage = (Math + Physics + English) / 3;
         System.out.println("Средняя оценка за семестр: " + avarage);
 
-        if (Math <= 49 || Physics < 50 ||49 English < 50)
+        if (Math <= 49 || Physics < 50 || English < 50)
             System.out.println("Надо было учиться :( ");
         else if (avarage >= 50 && avarage <= 69)
             System.out.println("Ты слетел со стипендии :( ");
